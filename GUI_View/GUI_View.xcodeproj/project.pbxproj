@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF881F111985C97800B24F90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF881F101985C97800B24F90 /* AppDelegate.swift */; };
+		EF881F131985C97800B24F90 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF881F121985C97800B24F90 /* ViewController.swift */; };
+		EF881F161985C97800B24F90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF881F141985C97800B24F90 /* Main.storyboard */; };
+		EF881F181985C97800B24F90 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF881F171985C97800B24F90 /* Images.xcassets */; };
+		EF881F241985C97800B24F90 /* GUI_ViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF881F231985C97800B24F90 /* GUI_ViewTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF881F1E1985C97800B24F90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF881F031985C97700B24F90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF881F0A1985C97700B24F90;
+			remoteInfo = GUI_View;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF881F0B1985C97800B24F90 /* GUI_View.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GUI_View.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF881F0F1985C97800B24F90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF881F101985C97800B24F90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 1; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF881F121985C97800B24F90 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = ViewController.swift; sourceTree = "<group>"; };
+		EF881F151985C97800B24F90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF881F171985C97800B24F90 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EF881F1D1985C97800B24F90 /* GUI_ViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GUI_ViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF881F221985C97800B24F90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF881F231985C97800B24F90 /* GUI_ViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GUI_ViewTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF881F081985C97700B24F90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF881F1A1985C97800B24F90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF881F021985C97700B24F90 = {
+			isa = PBXGroup;
+			children = (
+				EF881F0D1985C97800B24F90 /* GUI_View */,
+				EF881F201985C97800B24F90 /* GUI_ViewTests */,
+				EF881F0C1985C97800B24F90 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF881F0C1985C97800B24F90 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF881F0B1985C97800B24F90 /* GUI_View.app */,
+				EF881F1D1985C97800B24F90 /* GUI_ViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF881F0D1985C97800B24F90 /* GUI_View */ = {
+			isa = PBXGroup;
+			children = (
+				EF881F101985C97800B24F90 /* AppDelegate.swift */,
+				EF881F121985C97800B24F90 /* ViewController.swift */,
+				EF881F141985C97800B24F90 /* Main.storyboard */,
+				EF881F171985C97800B24F90 /* Images.xcassets */,
+				EF881F0E1985C97800B24F90 /* Supporting Files */,
+			);
+			path = GUI_View;
+			sourceTree = "<group>";
+		};
+		EF881F0E1985C97800B24F90 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF881F0F1985C97800B24F90 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF881F201985C97800B24F90 /* GUI_ViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF881F231985C97800B24F90 /* GUI_ViewTests.swift */,
+				EF881F211985C97800B24F90 /* Supporting Files */,
+			);
+			path = GUI_ViewTests;
+			sourceTree = "<group>";
+		};
+		EF881F211985C97800B24F90 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF881F221985C97800B24F90 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF881F0A1985C97700B24F90 /* GUI_View */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF881F271985C97800B24F90 /* Build configuration list for PBXNativeTarget "GUI_View" */;
+			buildPhases = (
+				EF881F071985C97700B24F90 /* Sources */,
+				EF881F081985C97700B24F90 /* Frameworks */,
+				EF881F091985C97700B24F90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GUI_View;
+			productName = GUI_View;
+			productReference = EF881F0B1985C97800B24F90 /* GUI_View.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF881F1C1985C97800B24F90 /* GUI_ViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF881F2A1985C97800B24F90 /* Build configuration list for PBXNativeTarget "GUI_ViewTests" */;
+			buildPhases = (
+				EF881F191985C97800B24F90 /* Sources */,
+				EF881F1A1985C97800B24F90 /* Frameworks */,
+				EF881F1B1985C97800B24F90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF881F1F1985C97800B24F90 /* PBXTargetDependency */,
+			);
+			name = GUI_ViewTests;
+			productName = GUI_ViewTests;
+			productReference = EF881F1D1985C97800B24F90 /* GUI_ViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF881F031985C97700B24F90 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = ShawnCCHuang;
+				TargetAttributes = {
+					EF881F0A1985C97700B24F90 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					EF881F1C1985C97800B24F90 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = EF881F0A1985C97700B24F90;
+					};
+				};
+			};
+			buildConfigurationList = EF881F061985C97700B24F90 /* Build configuration list for PBXProject "GUI_View" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF881F021985C97700B24F90;
+			productRefGroup = EF881F0C1985C97800B24F90 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF881F0A1985C97700B24F90 /* GUI_View */,
+				EF881F1C1985C97800B24F90 /* GUI_ViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF881F091985C97700B24F90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF881F161985C97800B24F90 /* Main.storyboard in Resources */,
+				EF881F181985C97800B24F90 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF881F1B1985C97800B24F90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF881F071985C97700B24F90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF881F131985C97800B24F90 /* ViewController.swift in Sources */,
+				EF881F111985C97800B24F90 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF881F191985C97800B24F90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF881F241985C97800B24F90 /* GUI_ViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF881F1F1985C97800B24F90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF881F0A1985C97700B24F90 /* GUI_View */;
+			targetProxy = EF881F1E1985C97800B24F90 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF881F141985C97800B24F90 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF881F151985C97800B24F90 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF881F251985C97800B24F90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF881F261985C97800B24F90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF881F281985C97800B24F90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = GUI_View/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF881F291985C97800B24F90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = GUI_View/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF881F2B1985C97800B24F90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GUI_View.app/GUI_View";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GUI_ViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		EF881F2C1985C97800B24F90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GUI_View.app/GUI_View";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GUI_ViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF881F061985C97700B24F90 /* Build configuration list for PBXProject "GUI_View" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF881F251985C97800B24F90 /* Debug */,
+				EF881F261985C97800B24F90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF881F271985C97800B24F90 /* Build configuration list for PBXNativeTarget "GUI_View" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF881F281985C97800B24F90 /* Debug */,
+				EF881F291985C97800B24F90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF881F2A1985C97800B24F90 /* Build configuration list for PBXNativeTarget "GUI_ViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF881F2B1985C97800B24F90 /* Debug */,
+				EF881F2C1985C97800B24F90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF881F031985C97700B24F90 /* Project object */;
+}
